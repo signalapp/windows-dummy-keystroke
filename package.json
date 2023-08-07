@@ -1,8 +1,13 @@
 {
-  "name": "windows-dummy-keystroke",
+  "name": "@signalapp/windows-dummy-keystroke",
   "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalapp/windows-dummy-keystroke.git"
+  },
+  "homepage": "https://github.com/signalapp/windows-dummy-keystroke#readme",
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build"
